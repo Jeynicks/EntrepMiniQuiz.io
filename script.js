@@ -1,205 +1,232 @@
 const questions = [
     {
-        question: "The activity of setting up a business or business",
+        question: "What is the primary goal of understanding the self?",
         answers: [
-            {text: "Entrepreneur", correct: false},
-            {text: "Entrepreneurship", correct: true},
-            {text: "Risk Taker", correct: false},
-            {text: "Sales Talker", correct: false},
+            { text: "To become wealthy", correct: false },
+            { text: "To improve relationships only", correct: false },
+            { text: "To develop self-awareness and personal growth", correct: true },
+            { text: "To memorize philosophical terms", correct: false },
         ]
     },
     {
-        question: "It means that because of Entrepreneurship many organizations will exist",
+        question: "Which philosopher claimed that 'the unexamined life is not worth living'?",
         answers: [
-            {text: "Improving Standard of Living", correct: false},
-            {text: "Development of Managerial Capabilities", correct: false},
-            {text: "Means of Economic Development", correct: false},
-            {text: "Creations of Organizations", correct: true},
+            { text: "Plato", correct: false },
+            { text: "Aristotle", correct: false },
+            { text: "Socrates", correct: true },
+            { text: "Descartes", correct: false },
         ]
     },
     {
-        question: "Not only the life of the entrepreneurs iss improved but also the society where the business is located",
+        question: "Plato’s concept of the self is composed of what three elements?",
         answers: [
-            {text: "Improving Standard of Living", correct: false},
-            {text: "Development of Managerial Capabilities", correct: false},
-            {text: "Means of Economic Development", correct: true},
-            {text: "Creations of Organizations", correct: false},
+            { text: "Heart, Mind, Body", correct: false },
+            { text: "Desire, Emotion, Reason", correct: false },
+            { text: "Rational, Spirited, Appetitive", correct: true },
+            { text: "Soul, Spirit, Ego", correct: false },
         ]
     },
     {
-        question: "It aids entrepreneurs to develop his/her managerial skills",
+        question: "What did St. Augustine believe about the self?",
         answers: [
-            {text: "Improving Standard of Living", correct: false},
-            {text: "Development of Managerial Capabilities", correct: true},
-            {text: "Means of Economic Development", correct: false},
-            {text: "Creations of Organizations", correct: false},
+            { text: "The self is material", correct: false },
+            { text: "The self is the brain only", correct: false },
+            { text: "The self is the soul united with God", correct: true },
+            { text: "The self is driven by pleasure", correct: false },
         ]
     },
     {
-        question: "Entrepreneurship can lift up the economic status of an individual",
+        question: "Which philosopher stated 'I think, therefore I am'?",
         answers: [
-            {text: "Improving Standard of Living", correct: true},
-            {text: "Development of Managerial Capabilities", correct: false},
-            {text: "Means of Economic Development", correct: false},
-            {text: "Creations of Organizations", correct: false},
+            { text: "Socrates", correct: false },
+            { text: "Immanuel Kant", correct: false },
+            { text: "René Descartes", correct: true },
+            { text: "Plato", correct: false },
         ]
     },
     {
-        question: "What does entreprendre mean",
+        question: "For David Hume, the self is:",
         answers: [
-            {text: "Entrepreneur", correct: false},
-            {text: "Entrepreneurship", correct: false},
-            {text: "To undertake", correct: true},
-            {text: "Enterprise", correct: false},
+            { text: "A fixed soul", correct: false },
+            { text: "A spiritual essence", correct: false },
+            { text: "A bundle of perceptions", correct: true },
+            { text: "A rational substance", correct: false },
         ]
     },
     {
-        question: "Entrepreneurs are __________ they are willing to take risks and generate unique ideas that can provide profitable solutions to the market and the society",
+        question: "Immanuel Kant believed the self is:",
         answers: [
-            {text: "Risk Takers", correct: false},
-            {text: "Innovators", correct: true},
-            {text: "Initiative", correct: false},
-            {text: "Problem Solver", correct: false},
+            { text: "Not knowable at all", correct: false },
+            { text: "Purely empirical", correct: false },
+            { text: "A unified consciousness that makes experience possible", correct: true },
+            { text: "Identical to the body", correct: false },
         ]
     },
     {
-        question: "Pursue things to get done regardless of the challenges",
+        question: "Which Eastern concept believes the self is an illusion?",
         answers: [
-            {text: "Proactive", correct: false},
-            {text: "Persuasion", correct: false},
-            {text: "Perseverance", correct: true},
-            {text: "Planner", correct: false},
+            { text: "Hindu Atman", correct: false },
+            { text: "Taoist Energy", correct: false },
+            { text: "Buddhist Anatta", correct: true },
+            { text: "Confucian Self", correct: false },
         ]
     },
     {
-        question: "Can classify oppurtunities and seize it",
+        question: "Which of the following best represents the concept of 'social self'?",
         answers: [
-            {text: "Risk Taker", correct: false},
-            {text: "Initiative", correct: false},
-            {text: "Persuasion", correct: false},
-            {text: "Proactive", correct: true},
+            { text: "How one appears in the mirror", correct: false },
+            { text: "The true self when alone", correct: false },
+            { text: "How others perceive and interact with you", correct: true },
+            { text: "The unconscious mind", correct: false },
         ]
     },
     {
-        question: "Makes plan before doing things and does not fail to monitor it",
+        question: "What is self-concept?",
         answers: [
-            {text: "Planner", correct: true},
-            {text: "Initiative", correct: false},
-            {text: "Perseverance", correct: false},
-            {text: "Risk Taker", correct: false},
+            { text: "Your job title", correct: false },
+            { text: "Your physical appearance only", correct: false },
+            { text: "The sum of beliefs one holds about oneself", correct: true },
+            { text: "What others say about you", correct: false },
         ]
     },
     {
-        question: "Willing to gamble  but will calculate it first",
+        question: "What is self-esteem?",
         answers: [
-            {text: "Risk Taker", correct: true},
-            {text: "Initiative", correct: false},
-            {text: "Persuasion", correct: false},
-            {text: "Proactive", correct: false},
+            { text: "A belief that others like you", correct: false },
+            { text: "How much money you earn", correct: false },
+            { text: "Your overall sense of self-worth or value", correct: true },
+            { text: "An objective evaluation by others", correct: false },
         ]
     },
     {
-        question: "Doing things before even told",
+        question: "Carl Rogers believed that a healthy self-concept is achieved when:",
         answers: [
-            {text: "Risk Takers", correct: false},
-            {text: "Innovators", correct: false},
-            {text: "Initiative", correct: true},
-            {text: "Problem Solver", correct: false},
+            { text: "The real self and ideal self are in conflict", correct: false },
+            { text: "There is unconditional positive regard", correct: true },
+            { text: "The ideal self is rejected", correct: false },
+            { text: "The self is isolated", correct: false },
         ]
     },
     {
-        question: "Conceive  new ideas and achieves innovative solution",
+        question: "Which concept emphasizes the gap between who we are and who we want to be?",
         answers: [
-            {text: "Risk Takers", correct: false},
-            {text: "Innovators", correct: false},
-            {text: "Initiative", correct: false},
-            {text: "Problem Solver", correct: true},
+            { text: "Self-awareness", correct: false },
+            { text: "Self-efficacy", correct: false },
+            { text: "Ideal self", correct: true },
+            { text: "Self-serving bias", correct: false },
         ]
     },
     {
-        question: "Can convince people to buy even if they don't want to",
+        question: "What is self-efficacy?",
         answers: [
-            {text: "Proactive", correct: false},
-            {text: "Persuasion", correct: true},
-            {text: "Perseverance", correct: false},
-            {text: "Planner", correct: false},
+            { text: "Belief in one’s ability to succeed", correct: true },
+            { text: "Self-hatred", correct: false },
+            { text: "Overconfidence", correct: false },
+            { text: "The tendency to compare oneself to others", correct: false },
         ]
     },
     {
-        question: "Must have a convincing power",
+        question: "Which part of Freud's personality structure operates on the reality principle?",
         answers: [
-            {text: "Decisive", correct: false},
-            {text: "Communicator", correct: true},
-            {text: "Leader", correct: false},
-            {text: "Opportunity Seeker", correct: false},
+            { text: "Id", correct: false },
+            { text: "Ego", correct: true },
+            { text: "Superego", correct: false },
+            { text: "Consciousness", correct: false },
         ]
     },
     {
-        question: "Must have the ability to be the first to see business chances",
+        question: "According to Freud, the part of the personality that internalizes morals is:",
         answers: [
-            {text: "Decisive", correct: false},
-            {text: "Communicator", correct: false},
-            {text: "Leader", correct: false},
-            {text: "Opportunity Seeker", correct: true},
+            { text: "Id", correct: false },
+            { text: "Ego", correct: false },
+            { text: "Superego", correct: true },
+            { text: "Shadow", correct: false },
         ]
     },
     {
-        question: "Must be firm in making decisions",
+        question: "Which defense mechanism involves transferring emotions from a threatening target to a safer one?",
         answers: [
-            {text: "Decisive", correct: true},
-            {text: "Communicator", correct: false},
-            {text: "Leader", correct: false},
-            {text: "Opportunity Seeker", correct: false},
+            { text: "Repression", correct: false },
+            { text: "Denial", correct: false },
+            { text: "Displacement", correct: true },
+            { text: "Projection", correct: false },
         ]
     },
     {
-        question: "Must have the charisma to be obeyed by his/her employees",
+        question: "Erikson’s stage for adolescents is:",
         answers: [
-            {text: "Decisive", correct: false},
-            {text: "Communicator", correct: false},
-            {text: "Leader", correct: true},
-            {text: "Opportunity Seeker", correct: false},
+            { text: "Trust vs. Mistrust", correct: false },
+            { text: "Initiative vs. Guilt", correct: false },
+            { text: "Identity vs. Role Confusion", correct: true },
+            { text: "Autonomy vs. Shame", correct: false },
         ]
     },
-    {
-        question: "An entrepreneur who never runs out of ideas",
-        answers: [
-            {text: "Fabian Entrepreneurs", correct: false},
-            {text: "Social Entrepreneurs", correct: false},
-            {text: "Drone Entrepreneurs", correct: false},
-            {text: "Innovative Entrepreneurs", correct: true},
-        ]
-    },
-    {
-        question: "Drive social innovation and transform",
-        answers: [
-            {text: "Fabian Entrepreneurs", correct: false},
-            {text: "Social Entrepreneurs", correct: true},
-            {text: "Drone Entrepreneurs", correct: false},
-            {text: "Innovative Entrepreneurs", correct: false},
-        ]
-    },
-    {
-        question: "They are skeptical about changes ",
-        answers: [
-            {text: "Fabian Entrepreneurs", correct: true},
-            {text: "Social Entrepreneurs", correct: false},
-            {text: "Drone Entrepreneurs", correct: false},
-            {text: "Innovative Entrepreneurs", correct: false},
-        ]
-    },
-    {
-        question: "They are conservative entrepreneurs",
-        answers: [
-            {text: "Fabian Entrepreneurs", correct: false},
-            {text: "Social Entrepreneurs", correct: false},
-            {text: "Drone Entrepreneurs", correct: true},
-            {text: "Innovative Entrepreneurs", correct: false},
-        ]
-    },
-    
 
-]
+    {
+        question: "According to Socrates, what is the key to wisdom?",
+        answers: [
+            { text: "Accumulating wealth", correct: false },
+            { text: "Knowing oneself", correct: true },
+            { text: "Reading many books", correct: false },
+            { text: "Avoiding questions", correct: false },
+        ]
+    },
+    {
+        question: "Who believed that the self is composed of reason, physical appetite, and spirit?",
+        answers: [
+            { text: "Aristotle", correct: false },
+            { text: "Plato", correct: true },
+            { text: "Socrates", correct: false },
+            { text: "St. Augustine", correct: false },
+        ]
+    },
+    {
+        question: "What did St. Augustine believe was essential for understanding the self?",
+        answers: [
+            { text: "Scientific knowledge", correct: false },
+            { text: "Union with God", correct: true },
+            { text: "Political power", correct: false },
+            { text: "Isolation", correct: false },
+        ]
+    },
+    {
+        question: "For Rene Descartes, what defines existence?",
+        answers: [
+            { text: "Emotion", correct: false },
+            { text: "Faith", correct: false },
+            { text: "Thinking", correct: true },
+            { text: "Movement", correct: false },
+        ]
+    },
+    {
+        question: "David Hume believed that the self is a:",
+        answers: [
+            { text: "Permanent soul", correct: false },
+            { text: "Bundle of perceptions", correct: true },
+            { text: "Logical concept", correct: false },
+            { text: "Moral agent", correct: false },
+        ]
+    },
+    {
+        question: "Which philosopher argued that knowledge begins with experience?",
+        answers: [
+            { text: "David Hume", correct: false },
+            { text: "Immanuel Kant", correct: true },
+            { text: "Plato", correct: false },
+            { text: "Descartes", correct: false },
+        ]
+    },
+    {
+        question: "According to Gilbert Ryle, how should the self be understood?",
+        answers: [
+            { text: "As a ghost in the machine", correct: false },
+            { text: "As a pattern of behavior", correct: true },
+            { text: "As a soul", correct: false },
+            { text: "As divine essence", correct: false },
+        ]
+    }
+];
+
 
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
